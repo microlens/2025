@@ -1,6 +1,6 @@
 {
   "name": "@area44/gatsby-starter-emilia",
-  "version": "24.11.15",
+  "version": "25.01.27",
   "private": true,
   "description": "Minimalistic portfolio/photography site that features a masonry grid, page transitions, and large images",
   "author": "AREA44",
@@ -21,7 +21,7 @@
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@types/node": "^22.10.7",
+    "@types/node": "^22.10.10",
     "@types/react": "^18.3.18",
     "@types/react-dom": "^18.3.5",
     "prettier": "^3.4.2",
