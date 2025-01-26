@@ -1,0 +1,3 @@
+User-agent: *
+
+sitemap: https://2025-microlens.netlify.app/sitemap-index.xml
