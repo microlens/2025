@@ -2,12 +2,11 @@ import type { GatsbyConfig, PluginRef } from 'gatsby'
 
 const config: GatsbyConfig = {
   siteMetadata: {
-    siteTitle: `Gatsby Starter Emilia`,
-    siteTitleAlt: `Gatsby Starter Emilia | AREA44`,
-    siteHeadline: `Gatsby Starter Emilia | AREA44`,
-    siteUrl: `https://gatsby-starter-emilia.vercel.app`,
-    siteDescription:
-      'Minimalistic portfolio/photography site with masonry grid, page transitions and big images.',
+    siteTitle: `2025`,
+    siteTitleAlt: `2025`,
+    siteHeadline: `2025`,
+    siteUrl: `https://microlens.github.io/2025`,
+    siteDescription: '2025 is here.',
     siteImage: `/og-image.jpg`,
     siteLanguage: `en`,
     author: `@torn4dom4n`,
@@ -16,7 +15,7 @@ const config: GatsbyConfig = {
     {
       resolve: `@lekoarts/gatsby-theme-emilia`,
       options: {
-        name: `Gatsby Starter Emilia`,
+        name: `2025`,
         socialMedia: [{}],
         showThemeAuthor: false,
         location: `Vietnam`,
@@ -31,9 +30,9 @@ const config: GatsbyConfig = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Emilia | AREA44`,
-        short_name: `Emilia`,
-        description: `Minimalistic portfolio/photography site with masonry grid, page transitions and big images.`,
+        name: `2025`,
+        short_name: `2025`,
+        description: `2025 is here.`,
         start_url: `/`,
         background_color: `#fff`,
         display: `standalone`,
@@ -44,8 +43,8 @@ const config: GatsbyConfig = {
             type: `image/png`,
           },
           {
-            src: `/android-chrome-512x512.png`,
-            sizes: `512x512`,
+            src: `/android-chrome-384x384.png`,
+            sizes: `384x384`,
             type: `image/png`,
           },
         ],
